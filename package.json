@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "jest"
   },
   "author": "jiko21",
   "license": "MIT",
   "dependencies": {
     "jest": "^29.5.0"
+  },
+  "jest": {
+    "testMatch": ["**/*.test.js"]
   }
 }
